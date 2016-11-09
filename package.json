@@ -2,7 +2,7 @@
   "name": "polyboot-element-boilerplate",
   "version": "0.0.1",
   "description": "A starting point for to build Polyboot web components using Polymer.",
-  "main": "polyboot-element-boilerplate.html",
+  "main": "./src/polyboot-element-boilerplate.html",
   "directories": {
     "test": "test"
   },
