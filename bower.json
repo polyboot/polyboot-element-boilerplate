@@ -1,7 +1,7 @@
 {
   "name": "polyboot-element-boilerplate",
   "description": "A starting point for to build Polyboot web components using Polymer.",
-  "main": "polyboot-element-boilerplate.html",
+  "main": "./src/polyboot-element-boilerplate.html",
   "authors": [
     "Ashwin Hegde"
   ],
