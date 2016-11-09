@@ -1,0 +1,32 @@
+{
+  "name": "polyboot-element-boilerplate",
+  "version": "0.0.1",
+  "description": "A starting point for to build Polyboot web components using Polymer.",
+  "main": "polyboot-element-boilerplate.html",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start:dev": "polyserve",
+    "lint": "polylint -i polyboot-element-boilerplate.html",
+    "test:all": "wct",
+    "test:chrome": "wct -l chrome",
+    "test:alive": "wct -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/polyboot/polyboot-element-boilerplate.git"
+  },
+  "author": "Ashwin Hegde",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/polyboot/polyboot-element-boilerplate/issues"
+  },
+  "homepage": "https://github.com/polyboot/polyboot-element-boilerplate#readme",
+  "devDependencies": {
+    "polylint": "^2.10.1",
+    "polymer-cli": "^0.17.0",
+    "polyserve": "^0.13.0",
+    "web-component-tester": "^5.0.0"
+  }
+}
