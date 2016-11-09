@@ -10,7 +10,7 @@
     "start:dev": "polyserve",
     "start:bundled": "polymer serve build/bundled",
     "start:unbundled": "polymer serve build/unbundled",
-    "lint": "polylint -i polyboot-element-boilerplate.html",
+    "lint": "polylint -i ./src/polyboot-element-boilerplate.html",
     "build": "npm run dist:clean && polymer build",
     "test:all": "wct",
     "test:chrome": "wct -l chrome",
