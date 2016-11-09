@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+    <title>polyboot-element-boilerplate test</title>
+
+    <script src="../bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+    <script src="../bower_components/web-component-tester/browser.js"></script>
+
+    <link rel="import" href="../polyboot-element-boilerplate.html">
+  </head>
+  <body>
+    <test-fixture id="basic">
+      <template>
+        <polyboot-element-boilerplate></polyboot-element-boilerplate>
+      </template>
+    </test-fixture>
+
+    <script>
+      suite('polyboot-element-boilerplate', function() {
+        test('instantiating the element works', function() {
+          var element = fixture('basic');
+          assert.equal(element.is, 'polyboot-element-boilerplate');
+        });
+      });
+    </script>
+  </body>
+</html>
