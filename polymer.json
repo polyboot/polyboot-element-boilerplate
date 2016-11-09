@@ -1,0 +1,14 @@
+{
+  "entrypoint": "index.html",
+  "fragments": [
+    "src/polyboot-element-boilerplate.html"
+  ],
+  "sources": [
+    "src/**/*",
+    "images/**/*",
+    "bower.json"
+  ],
+  "includeDependencies": [
+    "./bower_components/webcomponentsjs/webcomponents-lite.min.js"
+  ]
+}
