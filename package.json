@@ -8,10 +8,14 @@
   },
   "scripts": {
     "start:dev": "polyserve",
+    "start:bundled": "polymer serve build/bundled",
+    "start:unbundled": "polymer serve build/unbundled",
     "lint": "polylint -i polyboot-element-boilerplate.html",
+    "build": "npm run dist:clean && polymer build",
     "test:all": "wct",
     "test:chrome": "wct -l chrome",
-    "test:alive": "wct -p"
+    "test:alive": "wct -p",
+    "dist:clean": "rimraf dist"
   },
   "repository": {
     "type": "git",

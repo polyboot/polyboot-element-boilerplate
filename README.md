@@ -28,6 +28,24 @@ npm run start:dev
 npm run lint
 ```
 
+## Building Your Application
+
+```
+npm run build
+```
+
+This will create a `build/` folder with `bundled/` and `unbundled/` sub-folders
+containing a bundled (Vulcanized) and unbundled builds, both run through HTML,
+CSS, and JS optimizers.
+
+```
+npm run start:bundled
+```
+
+```
+npm run start:unbundled
+```
+
 ## Running Tests
 
 ### Will run tests on all of your local browsers
