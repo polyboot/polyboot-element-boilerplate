@@ -1,0 +1,31 @@
+{
+  "name": "polyboot-element-boilerplate",
+  "description": "A starting point for to build Polyboot web components using Polymer.",
+  "main": "polyboot-element-boilerplate.html",
+  "authors": [
+    "Ashwin Hegde"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.4.0"
+  },
+  "devDependencies": {
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
+  },
+  "license": "MIT",
+  "keywords": [
+    "web-components",
+    "web",
+    "components",
+    "polymer",
+    "polyboot"
+  ],
+  "homepage": "https://github.com/polyboot/polyboot-element-boilerplate",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
